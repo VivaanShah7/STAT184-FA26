@@ -1,0 +1,3 @@
+dataset,publisher,source_url,download_url,downloaded_on,data_updated_utc,license,terms_url,coordinates
+Chicago Public Library locations,Chicago Public Library / City of Chicago,https://data.cityofchicago.org/d/x8fc-8rcq,https://data.cityofchicago.org/resource/x8fc-8rcq.json?$limit=5000,2026-11-06,2026-09-17 16:26 UTC,SEE_TERMS_OF_USE,https://www.chicago.gov/city/en/narr/foia/data_disclaimer.html,WGS84 longitude/latitude (EPSG:4326)
+Chicago community areas,City of Chicago,https://data.cityofchicago.org/d/igwz-8jzy,https://data.cityofchicago.org/resource/igwz-8jzy.geojson?$limit=5000,2026-11-06,2025-04-22 23:06 UTC,SEE_TERMS_OF_USE,https://www.chicago.gov/city/en/narr/foia/data_disclaimer.html,WGS84 longitude/latitude (EPSG:4326)
