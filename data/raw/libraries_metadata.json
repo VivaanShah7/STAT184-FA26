@@ -1,0 +1,726 @@
+{
+  "id" : "x8fc-8rcq",
+  "name" : "Libraries - Locations,  Contact Information, and Usual Hours of Operation",
+  "assetType" : "dataset",
+  "attribution" : "Chicago Public Library",
+  "attributionLink" : "http://chipublib.org",
+  "averageRating" : 0,
+  "category" : "Education",
+  "createdAt" : 1293050996,
+  "description" : "Chicago Public Library locations, contact information, and usual hours of operation.\r\n\r\nPlease note that branches may experience short-term closures due to utility interruptions, HVAC problems, and other unforeseen issues. For more up-to-date hours, please see https://chipublib.bibliocommons.com/locations or the Hours & Locations link at the top of any page on https://www.chipublib.org. For current closures, please see https://www.chipublib.org/news/cpl-location-closures.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 39167,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "licenseId" : "SEE_TERMS_OF_USE",
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 40883798,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1727709143,
+  "publicationGroup" : 220744,
+  "publicationStage" : "published",
+  "rowClass" : "",
+  "rowsUpdatedAt" : 1789662392,
+  "rowsUpdatedBy" : "4uig-jnaw",
+  "tableId" : 19658238,
+  "totalTimesRated" : 0,
+  "viewCount" : 128197,
+  "viewLastModified" : 1789662389,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1557863154,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 6566689,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1557863154,
+    "targetAudience" : "public",
+    "workflowId" : 2226,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "scy9-9wg4",
+      "displayName" : "cocadmin"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 599835045,
+    "name" : "BRANCH",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "branch_",
+    "position" : 1,
+    "renderTypeName" : "text",
+    "tableColumnId" : 1424780,
+    "width" : 172,
+    "cachedContents" : {
+      "non_null" : "82",
+      "largest" : "Wrightwood-Ashburn",
+      "null" : "0",
+      "top" : [ {
+        "item" : "West Chicago Avenue",
+        "count" : "1"
+      }, {
+        "item" : "Rogers Park",
+        "count" : "1"
+      }, {
+        "item" : "Jefferson Park",
+        "count" : "1"
+      }, {
+        "item" : "Archer Heights",
+        "count" : "1"
+      }, {
+        "item" : "Harold Washtington Library Center",
+        "count" : "1"
+      }, {
+        "item" : "Back of the Yards",
+        "count" : "1"
+      }, {
+        "item" : "Chicago Bee",
+        "count" : "1"
+      }, {
+        "item" : "Toman",
+        "count" : "1"
+      }, {
+        "item" : "Sulzer Regional Library",
+        "count" : "1"
+      }, {
+        "item" : "Altgeld",
+        "count" : "1"
+      }, {
+        "item" : "Gage Park",
+        "count" : "1"
+      }, {
+        "item" : "McKinley Park",
+        "count" : "1"
+      }, {
+        "item" : "Walker",
+        "count" : "1"
+      }, {
+        "item" : "Manning",
+        "count" : "1"
+      }, {
+        "item" : "Little Italy",
+        "count" : "1"
+      }, {
+        "item" : "Austin",
+        "count" : "1"
+      }, {
+        "item" : "Logan Square",
+        "count" : "1"
+      }, {
+        "item" : "King",
+        "count" : "1"
+      }, {
+        "item" : "Vodak-East Side",
+        "count" : "1"
+      }, {
+        "item" : "North Austin",
+        "count" : "1"
+      } ],
+      "smallest" : "Albany Park",
+      "count" : "82",
+      "cardinality" : "82"
+    },
+    "format" : { }
+  }, {
+    "id" : 599835046,
+    "name" : "SERVICE HOURS",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "service_hours",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 1424788,
+    "width" : 380,
+    "cachedContents" : {
+      "non_null" : "82",
+      "largest" : "Mon. & Wed., Noon-8; Tue. & Thu., 10-6; Fri. & Sat., 9-5; Sun., 1-5",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Mon. & Wed., 10-6; Tues. & Thurs., Noon-8; Fri. & Sat., 9-5; Sun., 1-5",
+        "count" : "37"
+      }, {
+        "item" : "Mon. & Wed., Noon-8; Tue. & Thu., 10-6; Fri. & Sat., 9-5; Sun., 1-5",
+        "count" : "35"
+      }, {
+        "item" : "Mon. - Thurs., 9-8; Fri. & Sat., 9-5; Sun., 1-5",
+        "count" : "4"
+      }, {
+        "item" : "Mon. & Wed., Noon-8; Tue. & Thu., 10-6; Fri. & Sat., 9-5; Sun.,  1-5",
+        "count" : "2"
+      }, {
+        "item" : "Mon. & Wed., Noon-8; Tues. & Thurs., 10-6; Fri. & Sat., 9-5; Sun., 1-5",
+        "count" : "2"
+      }, {
+        "item" : "Mon.- Thurs., 10-6 Fri. & Sat., 9-5; Sun., 1-5",
+        "count" : "1"
+      }, {
+        "item" : "Closed until further notice",
+        "count" : "1"
+      } ],
+      "smallest" : "Closed until further notice",
+      "count" : "82",
+      "cardinality" : "82"
+    },
+    "format" : { }
+  }, {
+    "id" : 599835047,
+    "name" : "ADDRESS",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "address",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 1424781,
+    "width" : 154,
+    "cachedContents" : {
+      "non_null" : "82",
+      "largest" : "955 E. 131st St.",
+      "null" : "0",
+      "top" : [ {
+        "item" : "11001 S. Indiana Ave.",
+        "count" : "1"
+      }, {
+        "item" : "11010 S. Kedzie Ave.",
+        "count" : "1"
+      }, {
+        "item" : "11071 S. Hoyne Ave.",
+        "count" : "1"
+      }, {
+        "item" : "1150 W. Fullerton Ave.",
+        "count" : "1"
+      }, {
+        "item" : "115 S. Pulaski Rd.",
+        "count" : "1"
+      }, {
+        "item" : "1226 W. Ainslie St.",
+        "count" : "1"
+      }, {
+        "item" : "122 N. Aberdeen St.",
+        "count" : "1"
+      }, {
+        "item" : "1336 W. Taylor St.",
+        "count" : "1"
+      }, {
+        "item" : "1350 W. 89th St.",
+        "count" : "1"
+      }, {
+        "item" : "1605 N. Troy St.",
+        "count" : "1"
+      }, {
+        "item" : "1625 W. Chicago Ave.",
+        "count" : "1"
+      }, {
+        "item" : "163 E. Pearson St.",
+        "count" : "1"
+      }, {
+        "item" : "1659 W. Melrose St.",
+        "count" : "1"
+      }, {
+        "item" : "1701 N. Milwaukee Ave.",
+        "count" : "1"
+      }, {
+        "item" : "1745 W. 63rd St.",
+        "count" : "1"
+      }, {
+        "item" : "1805 S. Loomis St.",
+        "count" : "1"
+      }, {
+        "item" : "1915 W. 35th St.",
+        "count" : "1"
+      }, {
+        "item" : "1962 W. 95th St.",
+        "count" : "1"
+      }, {
+        "item" : "2100 S. Wentworth Ave.",
+        "count" : "1"
+      }, {
+        "item" : "1000 E. 73rd St.",
+        "count" : "1"
+      } ],
+      "smallest" : "1000 E. 73rd St.",
+      "count" : "82",
+      "cardinality" : "82"
+    },
+    "format" : { }
+  }, {
+    "id" : 599835048,
+    "name" : "CITY",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "city",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 1424782,
+    "width" : 78,
+    "cachedContents" : {
+      "non_null" : "82",
+      "largest" : "Chicago",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Chicago",
+        "count" : "82"
+      } ],
+      "smallest" : "Chicago",
+      "count" : "82",
+      "cardinality" : "82"
+    },
+    "format" : { }
+  }, {
+    "id" : 599835049,
+    "name" : "STATE",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "state",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 1424783,
+    "width" : 50,
+    "cachedContents" : {
+      "non_null" : "82",
+      "largest" : "IL",
+      "null" : "0",
+      "top" : [ {
+        "item" : "IL",
+        "count" : "82"
+      } ],
+      "smallest" : "IL",
+      "count" : "82",
+      "cardinality" : "82"
+    },
+    "format" : { }
+  }, {
+    "id" : 599835050,
+    "name" : "ZIP",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "zip",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 1424789,
+    "width" : 60,
+    "cachedContents" : {
+      "non_null" : "82",
+      "largest" : "60827",
+      "null" : "0",
+      "top" : [ {
+        "item" : "60609",
+        "count" : "5"
+      }, {
+        "item" : "60617",
+        "count" : "4"
+      }, {
+        "item" : "60634",
+        "count" : "3"
+      }, {
+        "item" : "60623",
+        "count" : "3"
+      }, {
+        "item" : "60643",
+        "count" : "3"
+      }, {
+        "item" : "60647",
+        "count" : "3"
+      }, {
+        "item" : "60632",
+        "count" : "3"
+      }, {
+        "item" : "60612",
+        "count" : "2"
+      }, {
+        "item" : "60608",
+        "count" : "2"
+      }, {
+        "item" : "60639",
+        "count" : "2"
+      }, {
+        "item" : "60616",
+        "count" : "2"
+      }, {
+        "item" : "60611",
+        "count" : "2"
+      }, {
+        "item" : "60619",
+        "count" : "2"
+      }, {
+        "item" : "60620",
+        "count" : "2"
+      }, {
+        "item" : "60615",
+        "count" : "2"
+      }, {
+        "item" : "60607",
+        "count" : "2"
+      }, {
+        "item" : "60628",
+        "count" : "2"
+      }, {
+        "item" : "60630",
+        "count" : "2"
+      }, {
+        "item" : "60625",
+        "count" : "2"
+      }, {
+        "item" : "60637",
+        "count" : "2"
+      } ],
+      "smallest" : "60605",
+      "count" : "82",
+      "cardinality" : "82"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "align" : "right"
+    }
+  }, {
+    "id" : 599835051,
+    "name" : "PHONE",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "phone",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 1424791,
+    "width" : 130,
+    "cachedContents" : {
+      "non_null" : "81",
+      "largest" : "(773) 539-5450",
+      "null" : "1",
+      "top" : [ {
+        "item" : "(312) 744-1926",
+        "count" : "1"
+      }, {
+        "item" : "(312) 744-2292",
+        "count" : "1"
+      }, {
+        "item" : "(312) 742-1945",
+        "count" : "1"
+      }, {
+        "item" : "(312) 744-2995",
+        "count" : "1"
+      }, {
+        "item" : "(312) 744-5295",
+        "count" : "1"
+      }, {
+        "item" : "(312) 744-0900",
+        "count" : "1"
+      }, {
+        "item" : "(312) 747-1425",
+        "count" : "1"
+      }, {
+        "item" : "(312) 747-5281",
+        "count" : "1"
+      }, {
+        "item" : "(312) 747-3270",
+        "count" : "1"
+      }, {
+        "item" : "(312) 746-7730",
+        "count" : "1"
+      }, {
+        "item" : "(312) 747-0666",
+        "count" : "1"
+      }, {
+        "item" : "(312) 742-8811",
+        "count" : "1"
+      }, {
+        "item" : "(312) 747-7760",
+        "count" : "1"
+      }, {
+        "item" : "(312) 745-1660",
+        "count" : "1"
+      }, {
+        "item" : "(312) 747-2033",
+        "count" : "1"
+      }, {
+        "item" : "(312) 744-0156",
+        "count" : "1"
+      }, {
+        "item" : "(312) 744-8313",
+        "count" : "1"
+      }, {
+        "item" : "(312) 747-6872",
+        "count" : "1"
+      }, {
+        "item" : "(312) 747-5927",
+        "count" : "1"
+      }, {
+        "item" : "(312) 744-0991",
+        "count" : "1"
+      } ],
+      "smallest" : "(312) 742-1945",
+      "count" : "82",
+      "cardinality" : "82"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 599835052,
+    "name" : "WEBSITE",
+    "dataTypeName" : "url",
+    "description" : "",
+    "fieldName" : "website",
+    "position" : 8,
+    "renderTypeName" : "url",
+    "tableColumnId" : 1424786,
+    "width" : 154,
+    "format" : { },
+    "subColumnTypes" : [ "url", "description" ]
+  }, {
+    "id" : 599835063,
+    "name" : "BRANCH EMAIL",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "branch_email",
+    "position" : 9,
+    "renderTypeName" : "text",
+    "tableColumnId" : 154963642,
+    "cachedContents" : {
+      "non_null" : "82",
+      "largest" : "wrightwood-ashburn@chipublib.org",
+      "null" : "0",
+      "top" : [ {
+        "item" : "mckinleypark@chipublib.org",
+        "count" : "1"
+      }, {
+        "item" : "edgewater@chipublib.org",
+        "count" : "1"
+      }, {
+        "item" : "blackstone@chipublib.org",
+        "count" : "1"
+      }, {
+        "item" : "chicagolawn@chipublib.org",
+        "count" : "1"
+      }, {
+        "item" : "lincolnbelmont@chipublib.org",
+        "count" : "1"
+      }, {
+        "item" : "walker@chipublib.org",
+        "count" : "1"
+      }, {
+        "item" : "uptown@chipublib.org",
+        "count" : "1"
+      }, {
+        "item" : "chinatown@chipublib.org",
+        "count" : "1"
+      }, {
+        "item" : "austin@chipublib.org",
+        "count" : "1"
+      }, {
+        "item" : "avalon@chipublib.org",
+        "count" : "1"
+      }, {
+        "item" : "austin-irving@chipublib.org",
+        "count" : "1"
+      }, {
+        "item" : "hall@chipublib.org",
+        "count" : "1"
+      }, {
+        "item" : "king@chipublib.org",
+        "count" : "1"
+      }, {
+        "item" : "brainerd@chipublib.org",
+        "count" : "1"
+      }, {
+        "item" : "toman@chipublib.org",
+        "count" : "1"
+      }, {
+        "item" : "bezazian@chipublib.org",
+        "count" : "1"
+      }, {
+        "item" : "hegewisch@chipublib.org",
+        "count" : "1"
+      }, {
+        "item" : "backoftheyards@chipublib.org",
+        "count" : "1"
+      }, {
+        "item" : "galewood-montclare@chipublib.org",
+        "count" : "1"
+      }, {
+        "item" : "lozano@chipublib.org",
+        "count" : "1"
+      } ],
+      "smallest" : "albanypark@chipublib.org",
+      "count" : "82",
+      "cardinality" : "82"
+    },
+    "format" : { }
+  }, {
+    "id" : 599835053,
+    "name" : "LOCATION",
+    "dataTypeName" : "location",
+    "description" : "",
+    "fieldName" : "location",
+    "position" : 10,
+    "renderTypeName" : "location",
+    "tableColumnId" : 80925383,
+    "format" : { }
+  }, {
+    "id" : 599835058,
+    "name" : "Boundaries - ZIP Codes",
+    "dataTypeName" : "number",
+    "description" : "This column was automatically created in order to record in what polygon from the dataset 'Boundaries - ZIP Codes' (rpca-8um6) the point in column 'location' is located. This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+    "fieldName" : ":@computed_region_rpca_8um6",
+    "position" : 14,
+    "renderTypeName" : "number",
+    "tableColumnId" : 86069589,
+    "computationStrategy" : {
+      "source_columns" : [ "location" ],
+      "type" : "georegion_match_on_point",
+      "parameters" : {
+        "region" : "_rpca-8um6",
+        "primary_key" : "_feature_id"
+      }
+    },
+    "format" : { }
+  }, {
+    "id" : 599835059,
+    "name" : "Community Areas",
+    "dataTypeName" : "number",
+    "description" : "This column was automatically created in order to record in what polygon from the dataset 'Community Areas' (vrxf-vc4k) the point in column 'location' is located. This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+    "fieldName" : ":@computed_region_vrxf_vc4k",
+    "position" : 15,
+    "renderTypeName" : "number",
+    "tableColumnId" : 86069590,
+    "computationStrategy" : {
+      "source_columns" : [ "location" ],
+      "type" : "georegion_match_on_point",
+      "parameters" : {
+        "region" : "_vrxf-vc4k",
+        "primary_key" : "_feature_id"
+      }
+    },
+    "format" : { }
+  }, {
+    "id" : 599835060,
+    "name" : "Zip Codes",
+    "dataTypeName" : "number",
+    "description" : "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (6mkv-f3dw) the point in column 'location' is located. This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+    "fieldName" : ":@computed_region_6mkv_f3dw",
+    "position" : 16,
+    "renderTypeName" : "number",
+    "tableColumnId" : 86069591,
+    "computationStrategy" : {
+      "source_columns" : [ "location" ],
+      "type" : "georegion_match_on_point",
+      "parameters" : {
+        "region" : "_6mkv-f3dw",
+        "primary_key" : "_feature_id"
+      }
+    },
+    "format" : { }
+  }, {
+    "id" : 599835061,
+    "name" : "Census Tracts",
+    "dataTypeName" : "number",
+    "description" : "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (bdys-3d7i) the point in column 'location' is located. This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+    "fieldName" : ":@computed_region_bdys_3d7i",
+    "position" : 17,
+    "renderTypeName" : "number",
+    "tableColumnId" : 86069592,
+    "computationStrategy" : {
+      "source_columns" : [ "location" ],
+      "type" : "georegion_match_on_point",
+      "parameters" : {
+        "region" : "_bdys-3d7i",
+        "primary_key" : "_feature_id"
+      }
+    },
+    "format" : { }
+  }, {
+    "id" : 599835062,
+    "name" : "Wards",
+    "dataTypeName" : "number",
+    "description" : "This column was automatically created in order to record in what polygon from the dataset 'Wards' (43wa-7qmu) the point in column 'location' is located. This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+    "fieldName" : ":@computed_region_43wa_7qmu",
+    "position" : 18,
+    "renderTypeName" : "number",
+    "tableColumnId" : 86069593,
+    "computationStrategy" : {
+      "source_columns" : [ "location" ],
+      "type" : "georegion_match_on_point",
+      "parameters" : {
+        "region" : "_43wa-7qmu",
+        "primary_key" : "_feature_id"
+      }
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "license" : {
+    "name" : "See Terms of Use"
+  },
+  "metadata" : {
+    "rdfSubject" : "0",
+    "rdfClass" : "",
+    "jsonQuery" : {
+      "order" : [ {
+        "columnFieldName" : "branch_",
+        "ascending" : true
+      } ]
+    },
+    "custom_fields" : {
+      "Metadata" : {
+        "Frequency" : "Data is updated as needed",
+        "Data Owner" : "Chicago Public Library"
+      }
+    },
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+    "renderTypeConfig" : {
+      "visible" : {
+        "table" : true
+      }
+    }
+  },
+  "owner" : {
+    "id" : "scy9-9wg4",
+    "displayName" : "cocadmin",
+    "profileImageUrlLarge" : "/api/users/scy9-9wg4/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/scy9-9wg4/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/scy9-9wg4/profile_images/TINY",
+    "screenName" : "cocadmin",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : {
+    "orderBys" : [ {
+      "ascending" : true,
+      "expression" : {
+        "columnId" : 599835045,
+        "type" : "column"
+      }
+    } ]
+  },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "scy9-9wg4",
+    "displayName" : "cocadmin",
+    "profileImageUrlLarge" : "/api/users/scy9-9wg4/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/scy9-9wg4/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/scy9-9wg4/profile_images/TINY",
+    "screenName" : "cocadmin",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "libraries", "facilities", "gis" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

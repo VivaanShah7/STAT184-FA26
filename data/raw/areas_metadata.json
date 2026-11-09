@@ -1,0 +1,533 @@
+{
+  "id" : "igwz-8jzy",
+  "name" : "Boundaries - Community Areas",
+  "assetType" : "dataset",
+  "attribution" : "City of Chicago",
+  "attributionLink" : "http://www.cityofchicago.org",
+  "averageRating" : 0,
+  "category" : "Facilities & Geographic Boundaries",
+  "createdAt" : 1357524170,
+  "description" : "Community area boundaries in Chicago.\n\nThis dataset is in a format for spatial datasets that is inherently tabular but allows for a map as a derived view. Please click the indicated link below for such a map. \n\nTo export the data in either tabular or geographic format, please use the Export button on this dataset.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 24205,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "licenseId" : "SEE_TERMS_OF_USE",
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 41287086,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1745362457,
+  "publicationGroup" : 5828636,
+  "publicationStage" : "published",
+  "rowIdentifierColumnId" : 609150340,
+  "rowsUpdatedAt" : 1745363197,
+  "tableId" : 19870806,
+  "totalTimesRated" : 0,
+  "viewCount" : 14958,
+  "viewLastModified" : 1774469123,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1481066298,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 6859711,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1481066298,
+    "targetAudience" : "public",
+    "workflowId" : 2226,
+    "reviewer" : {
+      "id" : "vewm-vupz",
+      "displayName" : "Jonathan Levy"
+    },
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "h37r-yykh",
+      "displayName" : "Dhaif"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 609150330,
+    "name" : "the_geom",
+    "dataTypeName" : "multipolygon",
+    "description" : "",
+    "fieldName" : "the_geom",
+    "position" : 1,
+    "renderTypeName" : "multipolygon",
+    "tableColumnId" : 42297562,
+    "width" : 184,
+    "format" : { }
+  }, {
+    "id" : 609150340,
+    "name" : "AREA_NUMBE",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "area_numbe",
+    "position" : 6,
+    "renderTypeName" : "number",
+    "tableColumnId" : 158125562,
+    "width" : 149,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "77",
+      "null" : "0",
+      "top" : [ {
+        "item" : "8",
+        "count" : "1"
+      }, {
+        "item" : "70",
+        "count" : "1"
+      }, {
+        "item" : "33",
+        "count" : "1"
+      }, {
+        "item" : "55",
+        "count" : "1"
+      }, {
+        "item" : "19",
+        "count" : "1"
+      }, {
+        "item" : "29",
+        "count" : "1"
+      }, {
+        "item" : "3",
+        "count" : "1"
+      }, {
+        "item" : "14",
+        "count" : "1"
+      }, {
+        "item" : "74",
+        "count" : "1"
+      }, {
+        "item" : "17",
+        "count" : "1"
+      }, {
+        "item" : "7",
+        "count" : "1"
+      }, {
+        "item" : "64",
+        "count" : "1"
+      }, {
+        "item" : "52",
+        "count" : "1"
+      }, {
+        "item" : "73",
+        "count" : "1"
+      }, {
+        "item" : "77",
+        "count" : "1"
+      }, {
+        "item" : "34",
+        "count" : "1"
+      }, {
+        "item" : "37",
+        "count" : "1"
+      }, {
+        "item" : "39",
+        "count" : "1"
+      }, {
+        "item" : "76",
+        "count" : "1"
+      }, {
+        "item" : "58",
+        "count" : "1"
+      } ],
+      "smallest" : "1",
+      "count" : "77",
+      "cardinality" : "77"
+    },
+    "format" : { }
+  }, {
+    "id" : 609150336,
+    "name" : "COMMUNITY",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "community",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 42297568,
+    "width" : 198,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "WOODLAWN",
+      "null" : "0",
+      "top" : [ {
+        "item" : "NEW CITY",
+        "count" : "1"
+      }, {
+        "item" : "ROGERS PARK",
+        "count" : "1"
+      }, {
+        "item" : "AVONDALE",
+        "count" : "1"
+      }, {
+        "item" : "IRVING PARK",
+        "count" : "1"
+      }, {
+        "item" : "JEFFERSON PARK",
+        "count" : "1"
+      }, {
+        "item" : "BEVERLY",
+        "count" : "1"
+      }, {
+        "item" : "DUNNING",
+        "count" : "1"
+      }, {
+        "item" : "HYDE PARK",
+        "count" : "1"
+      }, {
+        "item" : "WOODLAWN",
+        "count" : "1"
+      }, {
+        "item" : "FULLER PARK",
+        "count" : "1"
+      }, {
+        "item" : "GREATER GRAND CROSSING",
+        "count" : "1"
+      }, {
+        "item" : "UPTOWN",
+        "count" : "1"
+      }, {
+        "item" : "AUSTIN",
+        "count" : "1"
+      }, {
+        "item" : "OHARE",
+        "count" : "1"
+      }, {
+        "item" : "SOUTH CHICAGO",
+        "count" : "1"
+      }, {
+        "item" : "SOUTH LAWNDALE",
+        "count" : "1"
+      }, {
+        "item" : "LOWER WEST SIDE",
+        "count" : "1"
+      }, {
+        "item" : "WEST ELSDON",
+        "count" : "1"
+      }, {
+        "item" : "WEST TOWN",
+        "count" : "1"
+      }, {
+        "item" : "EDGEWATER",
+        "count" : "1"
+      } ],
+      "smallest" : "ALBANY PARK",
+      "count" : "77",
+      "cardinality" : "77"
+    },
+    "format" : { }
+  }, {
+    "id" : 609150337,
+    "name" : "AREA_NUM_1",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "area_num_1",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 42297569,
+    "width" : 137,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "9",
+      "null" : "0",
+      "top" : [ {
+        "item" : "16",
+        "count" : "1"
+      }, {
+        "item" : "26",
+        "count" : "1"
+      }, {
+        "item" : "63",
+        "count" : "1"
+      }, {
+        "item" : "71",
+        "count" : "1"
+      }, {
+        "item" : "72",
+        "count" : "1"
+      }, {
+        "item" : "70",
+        "count" : "1"
+      }, {
+        "item" : "8",
+        "count" : "1"
+      }, {
+        "item" : "75",
+        "count" : "1"
+      }, {
+        "item" : "13",
+        "count" : "1"
+      }, {
+        "item" : "28",
+        "count" : "1"
+      }, {
+        "item" : "39",
+        "count" : "1"
+      }, {
+        "item" : "19",
+        "count" : "1"
+      }, {
+        "item" : "23",
+        "count" : "1"
+      }, {
+        "item" : "20",
+        "count" : "1"
+      }, {
+        "item" : "25",
+        "count" : "1"
+      }, {
+        "item" : "14",
+        "count" : "1"
+      }, {
+        "item" : "64",
+        "count" : "1"
+      }, {
+        "item" : "34",
+        "count" : "1"
+      }, {
+        "item" : "6",
+        "count" : "1"
+      }, {
+        "item" : "18",
+        "count" : "1"
+      } ],
+      "smallest" : "1",
+      "count" : "77",
+      "cardinality" : "77"
+    },
+    "format" : { }
+  }, {
+    "id" : 609150338,
+    "name" : "SHAPE_AREA",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "shape_area",
+    "position" : 9,
+    "renderTypeName" : "number",
+    "tableColumnId" : 42297570,
+    "width" : 183,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "371835607.687",
+      "null" : "0",
+      "top" : [ {
+        "item" : "145965741.437",
+        "count" : "1"
+      }, {
+        "item" : "109099414.689",
+        "count" : "1"
+      }, {
+        "item" : "89487422.0242",
+        "count" : "1"
+      }, {
+        "item" : "53883220.8462",
+        "count" : "1"
+      }, {
+        "item" : "135460337.208",
+        "count" : "1"
+      }, {
+        "item" : "82320670.3112",
+        "count" : "1"
+      }, {
+        "item" : "19916704.8692",
+        "count" : "1"
+      }, {
+        "item" : "34852737.7366",
+        "count" : "1"
+      }, {
+        "item" : "103595001.175",
+        "count" : "1"
+      }, {
+        "item" : "89130893.6364",
+        "count" : "1"
+      }, {
+        "item" : "39431799.6479",
+        "count" : "1"
+      }, {
+        "item" : "42373881.4842",
+        "count" : "1"
+      }, {
+        "item" : "57054167.85",
+        "count" : "1"
+      }, {
+        "item" : "158492466.554",
+        "count" : "1"
+      }, {
+        "item" : "88779363.9384",
+        "count" : "1"
+      }, {
+        "item" : "98429094.8621",
+        "count" : "1"
+      }, {
+        "item" : "48826241.5643",
+        "count" : "1"
+      }, {
+        "item" : "199254203.427",
+        "count" : "1"
+      }, {
+        "item" : "117890778.429",
+        "count" : "1"
+      }, {
+        "item" : "99365198.0822",
+        "count" : "1"
+      } ],
+      "smallest" : "16913961.0408",
+      "count" : "77",
+      "cardinality" : "77"
+    },
+    "format" : { }
+  }, {
+    "id" : 609150339,
+    "name" : "SHAPE_LEN",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "shape_len",
+    "position" : 10,
+    "renderTypeName" : "number",
+    "tableColumnId" : 42297571,
+    "width" : 177,
+    "cachedContents" : {
+      "non_null" : "77",
+      "largest" : "173625.98466",
+      "null" : "0",
+      "top" : [ {
+        "item" : "18137.9442529",
+        "count" : "1"
+      }, {
+        "item" : "27179.0174378",
+        "count" : "1"
+      }, {
+        "item" : "31391.6697542",
+        "count" : "1"
+      }, {
+        "item" : "46936.9592443",
+        "count" : "1"
+      }, {
+        "item" : "34261.9334038",
+        "count" : "1"
+      }, {
+        "item" : "44591.4851009",
+        "count" : "1"
+      }, {
+        "item" : "46455.4408571",
+        "count" : "1"
+      }, {
+        "item" : "42006.9450094",
+        "count" : "1"
+      }, {
+        "item" : "80368.3743778",
+        "count" : "1"
+      }, {
+        "item" : "48133.595961",
+        "count" : "1"
+      }, {
+        "item" : "73692.3821322",
+        "count" : "1"
+      }, {
+        "item" : "44959.4596627",
+        "count" : "1"
+      }, {
+        "item" : "25937.226841",
+        "count" : "1"
+      }, {
+        "item" : "31027.0545098",
+        "count" : "1"
+      }, {
+        "item" : "46520.6421377",
+        "count" : "1"
+      }, {
+        "item" : "22404.8521448",
+        "count" : "1"
+      }, {
+        "item" : "41934.4901309",
+        "count" : "1"
+      }, {
+        "item" : "31514.6259565",
+        "count" : "1"
+      }, {
+        "item" : "42316.8442973",
+        "count" : "1"
+      }, {
+        "item" : "34052.3975757",
+        "count" : "1"
+      } ],
+      "smallest" : "18137.9442529",
+      "count" : "77",
+      "cardinality" : "77"
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "license" : {
+    "name" : "See Terms of Use"
+  },
+  "metadata" : {
+    "jsonQuery" : {
+      "order" : [ {
+        "columnFieldName" : "area_numbe",
+        "ascending" : true
+      } ]
+    },
+    "custom_fields" : {
+      "Metadata" : {
+        "Time Period" : "Current community area boundaries.",
+        "Changes and Other Historical Information Useful to Understanding This Dataset" : "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"igwz-8jzy\"",
+        "Frequency" : "Updated as needed."
+      }
+    },
+    "rowIdentifier" : 609150340,
+    "rowLabel" : "Community Area",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "scy9-9wg4",
+    "displayName" : "cocadmin",
+    "profileImageUrlLarge" : "/api/users/scy9-9wg4/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/scy9-9wg4/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/scy9-9wg4/profile_images/TINY",
+    "screenName" : "cocadmin",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : {
+    "orderBys" : [ {
+      "ascending" : true,
+      "expression" : {
+        "columnId" : 609150340,
+        "type" : "column"
+      }
+    } ]
+  },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "scy9-9wg4",
+    "displayName" : "cocadmin",
+    "profileImageUrlLarge" : "/api/users/scy9-9wg4/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/scy9-9wg4/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/scy9-9wg4/profile_images/TINY",
+    "screenName" : "cocadmin",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "gis", "boundaries", "geo_layer", "community area" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

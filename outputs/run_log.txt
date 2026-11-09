@@ -1,0 +1,135 @@
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Linking to GEOS 3.12.1, GDAL 3.8.4, PROJ 9.4.0; sf_use_s2() is TRUE
+Warning messages:
+1: Removed 36 rows containing non-finite values (`stat_smooth()`). 
+2: Removed 36 rows containing missing values (`geom_point()`). 
+3: Removed 36 rows containing non-finite values (`stat_smooth()`). 
+4: Removed 36 rows containing missing values (`geom_point()`). 
+# A tibble: 3 × 2
+  drv       n
+  <chr> <int>
+1 4       103
+2 f       106
+3 r        25
+# A tibble: 1 × 3
+  original retained excluded
+     <int>    <int>    <int>
+1    53940    53814      126
+# A tibble: 2 × 2
+  carat     n
+  <dbl> <int>
+1  0.99    23
+2  1     1558
+# A tibble: 2 × 2
+  radius_m union_area_km2
+     <dbl>          <dbl>
+1      500           64.3
+2     1000          250. 
+# A tibble: 77 × 5
+   district_id district_name          n_sites area_km2 sites_per_km2
+   <chr>       <chr>                    <int>    <dbl>         <dbl>
+ 1 25          AUSTIN                       3    18.5         0.162 
+ 2 23          HUMBOLDT PARK                3     9.33        0.322 
+ 3 28          NEAR WEST SIDE               3    14.7         0.204 
+ 4 61          NEW CITY                     3    12.5         0.240 
+ 5 15          PORTAGE PARK                 3    10.2         0.293 
+ 6 70          ASHBURN                      2    12.6         0.159 
+ 7 71          AUBURN GRESHAM               2     9.75        0.205 
+ 8 35          DOUGLAS                      2     4.27        0.468 
+ 9 6           LAKE VIEW                    2     8.10        0.247 
+10 8           NEAR NORTH SIDE              2     7.12        0.281 
+11 10          NORWOOD PARK                 2    11.3         0.177 
+12 30          SOUTH LAWNDALE               2    11.9         0.168 
+13 3           UPTOWN                       2     6.04        0.331 
+14 2           WEST RIDGE                   2     9.14        0.219 
+15 24          WEST TOWN                    2    11.8         0.169 
+16 42          WOODLAWN                     2     5.37        0.373 
+17 14          ALBANY PARK                  1     4.97        0.201 
+18 57          ARCHER HEIGHTS               1     5.19        0.193 
+19 34          ARMOUR SQUARE                1     2.58        0.388 
+20 45          AVALON PARK                  1     3.24        0.309 
+21 19          BELMONT CRAGIN               1    10.1         0.0987
+22 72          BEVERLY                      1     8.24        0.121 
+23 60          BRIDGEPORT                   1     5.41        0.185 
+24 58          BRIGHTON PARK                1     7.05        0.142 
+25 44          CHATHAM                      1     7.64        0.131 
+26 66          CHICAGO LAWN                 1     9.12        0.110 
+27 64          CLEARING                     1     6.60        0.151 
+28 17          DUNNING                      1     9.62        0.104 
+29 52          EAST SIDE                    1     7.73        0.129 
+30 77          EDGEWATER                    1     4.50        0.222 
+31 68          ENGLEWOOD                    1     7.95        0.126 
+32 12          FOREST GLEN                  1     8.27        0.121 
+33 63          GAGE PARK                    1     5.69        0.176 
+34 56          GARFIELD RIDGE               1    10.9         0.0914
+35 38          GRAND BOULEVARD              1     4.50        0.222 
+36 69          GREATER GRAND CROSSING       1     9.18        0.109 
+37 55          HEGEWISCH                    1    13.5         0.0738
+38 16          IRVING PARK                  1     8.32        0.120 
+39 39          KENWOOD                      1     2.70        0.371 
+40 7           LINCOLN PARK                 1     8.20        0.122 
+41 4           LINCOLN SQUARE               1     6.62        0.151 
+42 22          LOGAN SQUARE                 1     9.29        0.108 
+43 32          LOOP                         1     4.30        0.232 
+44 31          LOWER WEST SIDE              1     7.57        0.132 
+45 59          MCKINLEY PARK                1     3.66        0.273 
+46 18          MONTCLARE                    1     2.56        0.391 
+47 75          MORGAN PARK                  1     8.53        0.117 
+48 74          MOUNT GREENWOOD              1     7.02        0.143 
+49 29          NORTH LAWNDALE               1     8.31        0.120 
+50 13          NORTH PARK                   1     6.53        0.153 
+51 54          RIVERDALE                    1     9.13        0.109 
+52 1           ROGERS PARK                  1     4.76        0.210 
+53 49          ROSELAND                     1    12.5         0.0802
+54 46          SOUTH CHICAGO                1     8.66        0.115 
+55 51          SOUTH DEERING                1    28.2         0.0355
+56 43          SOUTH SHORE                  1     7.59        0.132 
+57 73          WASHINGTON HEIGHTS           1     7.39        0.135 
+58 67          WEST ENGLEWOOD               1     8.16        0.122 
+59 26          WEST GARFIELD PARK           1     3.35        0.298 
+60 65          WEST LAWN                    1     7.64        0.131 
+61 53          WEST PULLMAN                 1     9.22        0.108 
+62 21          AVONDALE                     0     5.13        0     
+63 47          BURNSIDE                     0     1.58        0     
+64 48          CALUMET HEIGHTS              0     4.53        0     
+65 27          EAST GARFIELD PARK           0     5.00        0     
+66 9           EDISON PARK                  0     2.94        0     
+67 37          FULLER PARK                  0     1.85        0     
+68 20          HERMOSA                      0     3.03        0     
+69 41          HYDE PARK                    0     4.19        0     
+70 11          JEFFERSON PARK               0     6.02        0     
+71 33          NEAR SOUTH SIDE              0     4.62        0     
+72 5           NORTH CENTER                 0     5.30        0     
+73 36          OAKLAND                      0     1.57        0     
+74 76          OHARE                        0    34.5         0     
+75 50          PULLMAN                      0     5.48        0     
+76 40          WASHINGTON PARK              0     3.93        0     
+77 62          WEST ELSDON                  0     3.04        0     
+# A tibble: 1 × 2
+  n_matches     n
+      <int> <int>
+1         1    82
+# A tibble: 0 × 4
+# ℹ 4 variables: site_id <chr>, facility_name <chr>, n_matches <int>,
+#   matched_district_ids <chr>
+[1] TRUE
+# A tibble: 1 × 12
+  raw_sites retained removed bad_coordinates duplicate_coordinate_records
+      <int>    <int>   <int>           <int>                        <int>
+1        82       82       0               0                            0
+  duplicated_name_records areas invalid_areas_before zero_matches one_match
+                    <int> <int>                <int>        <int>     <int>
+1                       0    77                    0            0        82
+  multiple_matches zero_count_areas
+             <int>            <int>
+1                0               16
